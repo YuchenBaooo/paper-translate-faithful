@@ -1,0 +1,119 @@
+{
+  "version": "2.1.0",
+  "metrics": {
+    "aligned-before": {
+      "pages": 21,
+      "open_ms_median": 57.30420000000001,
+      "operators_sum": 45965,
+      "text_layer_chars_sum": 70089,
+      "page_processing_mean_ms": 162.19854285714277,
+      "page_processing_max_ms": 541.2973,
+      "components": {
+        "operator_list_ms": {
+          "mean": 69.80862857142853,
+          "median": 35.664999999999964,
+          "max": 476.61569999999995,
+          "sum": 1465.9811999999993
+        },
+        "render_ms": {
+          "mean": 76.74812380952378,
+          "median": 47.28610000000026,
+          "max": 193.2009999999999,
+          "sum": 1611.7105999999992
+        },
+        "text_layer_ms": {
+          "mean": 15.641790476190462,
+          "median": 15.459100000000035,
+          "max": 25.853100000000268,
+          "sum": 328.4775999999997
+        }
+      }
+    },
+    "aligned-after": {
+      "pages": 21,
+      "open_ms_median": 50.21209999999999,
+      "operators_sum": 45965,
+      "text_layer_chars_sum": 70089,
+      "page_processing_mean_ms": 134.47038571428578,
+      "page_processing_max_ms": 348.0951,
+      "components": {
+        "operator_list_ms": {
+          "mean": 49.83525714285714,
+          "median": 30.348899999999958,
+          "max": 156.14350000000002,
+          "sum": 1046.5403999999999
+        },
+        "render_ms": {
+          "mean": 74.08480952380954,
+          "median": 49.25930000000017,
+          "max": 198.84739999999988,
+          "sum": 1555.7810000000002
+        },
+        "text_layer_ms": {
+          "mean": 10.550319047619102,
+          "median": 9.965400000000045,
+          "max": 18.090299999999843,
+          "sum": 221.55670000000111
+        }
+      }
+    },
+    "reader-before": {
+      "pages": 19,
+      "open_ms_median": 62.93949999999998,
+      "operators_sum": 1798044,
+      "text_layer_chars_sum": 4122841,
+      "page_processing_mean_ms": 2615.2323894736846,
+      "page_processing_max_ms": 6464.8735000000015,
+      "components": {
+        "operator_list_ms": {
+          "mean": 389.87900526315804,
+          "median": 368.2212999999999,
+          "max": 793.0080999999991,
+          "sum": 7407.701100000002
+        },
+        "render_ms": {
+          "mean": 1834.1196368421054,
+          "median": 1191.3665,
+          "max": 4754.350299999998,
+          "sum": 34848.2731
+        },
+        "text_layer_ms": {
+          "mean": 391.23374736842146,
+          "median": 215.28950000000032,
+          "max": 1069.0022000000026,
+          "sum": 7433.441200000008
+        }
+      }
+    },
+    "reader-after": {
+      "pages": 19,
+      "open_ms_median": 46.36760000000001,
+      "operators_sum": 223156,
+      "text_layer_chars_sum": 147988,
+      "page_processing_mean_ms": 342.1411157894737,
+      "page_processing_max_ms": 1512.7180000000003,
+      "components": {
+        "operator_list_ms": {
+          "mean": 105.02095263157892,
+          "median": 61.26420000000007,
+          "max": 345.7854000000002,
+          "sum": 1995.3980999999994
+        },
+        "render_ms": {
+          "mean": 187.4057315789475,
+          "median": 121.1909999999998,
+          "max": 1105.1606000000002,
+          "sum": 3560.7089000000024
+        },
+        "text_layer_ms": {
+          "mean": 49.714431578947256,
+          "median": 50.842899999999986,
+          "max": 92.77130000000011,
+          "sum": 944.574199999998
+        }
+      }
+    }
+  },
+  "pixel_difference_fraction_pdfjs_reader": 4.684784223593368e-05,
+  "in_app_fps_measured": false
+}

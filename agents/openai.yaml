@@ -1,0 +1,6 @@
+interface:
+  display_name: "论文保真翻译与排版skill"
+  short_description: "论文保真中文翻译与阅读排版，核对公式、图内文字、表格、字体及逐页可读性"
+  default_prompt: "使用 $paper-translate-faithful 处理这篇论文，按本次要求选择原位翻译或阅读优化，核对原文、译文、公式、图内文字、表格、字体和可读性后交付。"
+policy:
+  allow_implicit_invocation: true

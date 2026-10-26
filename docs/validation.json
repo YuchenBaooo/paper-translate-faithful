@@ -1,0 +1,40 @@
+{
+  "feature_version": "2.1.1",
+  "date": "2026-10-26",
+  "skill_schema": "pass",
+  "behavior_test_functions": 26,
+  "failures": 0,
+  "errors": 0,
+  "validation_scope": "Synthetic behavior plus real-paper portable fixture; not an absolute semantic-accuracy score.",
+  "real_case": {
+    "source_pages": 21,
+    "aligned_pages": 21,
+    "reader_pages": 19,
+    "prose_source_blocks": 246,
+    "math_tokens_outside_displays": 320,
+    "placed_math_glyph_checks": 2570,
+    "figures": 14,
+    "tables": 1,
+    "references": 239
+  },
+  "portable_fixture": {
+    "units": 23,
+    "assets": 22,
+    "math_glyph_checks": 157
+  },
+  "model_usage": {
+    "independent_metered_papers": 0,
+    "mean_tokens_per_paper": null,
+    "status": "not_measured"
+  },
+  "performance": {
+    "source": "references/performance.md",
+    "tests": 5,
+    "all_mupdf_pages_verified": 40,
+    "poppler_sample_pages_exact": 8,
+    "pdfjs_reader_mean_ms_before": 2615.2323894736846,
+    "pdfjs_reader_mean_ms_after": 342.1411157894737,
+    "app_fps_measured": false
+  },
+  "display_name": "论文保真翻译与排版skill"
+}

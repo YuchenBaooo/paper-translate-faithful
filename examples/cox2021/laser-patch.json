@@ -1,0 +1,30 @@
+{
+  "source_png": "laser-before.png",
+  "source_sha256": "55cb174e4644bb289e1f2d730de42e08d4a418b972fdde5bb7a98cc6c5896dbd",
+  "mask_png": "laser-mask.png",
+  "mask_sha256": "408e42c5e3a515957fa281e9e1403262c85140ff527a6a6244171acd476cdb3b",
+  "mask_reviewed": true,
+  "evidence": "Source word Laser reviewed on the dark cylindrical housing; mask is constrained to the word ROI, away from ray and instrument outline.",
+  "edit_bbox_px": [
+    0,
+    0,
+    186,
+    120
+  ],
+  "protected_bboxes_px": [],
+  "background": "local-harmonic",
+  "font": "auto-cjk",
+  "font_size_pt_estimate": 8,
+  "pixels_per_point": 6,
+  "translation": "激光器",
+  "center_px": [
+    95.0,
+    58.0
+  ],
+  "text_rgb": [
+    255,
+    255,
+    255
+  ],
+  "rotation": 0
+}

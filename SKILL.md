@@ -1,15 +1,17 @@
 ---
 name: paper-translate-faithful
-description: 将学术 PDF 准确译为中文，逐项核对原文识别、公式、图内文字、表格与字体；支持原位保版式，以及用户要求改善阅读体验时的独立重排版。用于全文翻译、旧译本修复和中文论文排版优化。
+description: 将学术 PDF 准确译为中文，核对公式、图内文字、表格与字体；支持原位保版式、授权阅读重排，以及已译 PDF 打开和滚动卡顿的结构诊断与矢量优化。
 metadata:
-  version: "2.0.0"
+  version: "2.1.1"
 ---
 
-# 论文精确翻译与阅读排版
+# 论文保真翻译与排版skill
 
 以原 PDF 的渲染为证据，分别验证识别、语义、几何、字体和可读性。原字形未丢、写区外像素未变，不代表中文已经好读。本技能统一提供原位翻译和阅读重排两条路线。
 
 ## 先确定本次版式约束
+
+- **已有译本打开/滚动卡顿**：先读 [渲染性能诊断与优化](references/performance.md)，优化已有PDF，不重新翻译或改变版式。
 
 - **alignment 原位版**：通常的保版式翻译默认采用；维持原页数、分栏、图表锚点及指定字体。下方 `paperflow.py` 流程和 [作业格式](references/job-format.md) 适用。
 - **reader 阅读版**：用户已要求解决过大空白、稀疏文字、混乱公式或明确授权重排时，阅读 [阅读重排步骤](references/reading-layout.md) 与 [reader 合同](references/reader-plan.md)，使用 `readerflow.py`。连续段落和原生公式随句排布，允许的分页、位置变化写入 `mode_basis`；保留仍有效的字号、字重等要求。

@@ -1,0 +1,31 @@
+{
+  "paper": "Structured Light in Turbulence",
+  "doi": "10.1109/JSTQE.2020.3023790",
+  "license": "CC BY 4.0",
+  "source_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+  "reader_sha256": "762269eae6a473b31c145df478dc7b16ff08f453e42d529d516a4ec5fb186956",
+  "comparisons": [
+    {
+      "file": "01-opening.png",
+      "topic": "题名、摘要、关键词与正文",
+      "source_page": 1,
+      "reader_page": 1,
+      "kind": "real PDF page renders; semantic correspondence, not exact page coverage"
+    },
+    {
+      "file": "02-equations.png",
+      "topic": "行内数学、矢量模式与独立公式",
+      "source_page": 3,
+      "reader_page": 3,
+      "kind": "real PDF page renders; semantic correspondence, not exact page coverage"
+    },
+    {
+      "file": "03-figures.png",
+      "topic": "实验装置、图内中文与图注",
+      "source_page": 7,
+      "reader_page": 6,
+      "kind": "real PDF page renders; semantic correspondence, not exact page coverage"
+    }
+  ],
+  "inline_repair": "04-inline-repair.png compares the prior aligned Chinese paragraph with the repaired reader edition"
+}

@@ -1,0 +1,88 @@
+{
+  "paper": {
+    "title": "Structured Light in Turbulence",
+    "authors": "Mitchell A. Cox et al.",
+    "journal_year": 2021,
+    "doi": "10.1109/JSTQE.2020.3023790",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24"
+  },
+  "examples": [
+    {
+      "id": "route-priority",
+      "input": "译文与原文严格对齐，但空白过多、公式混乱，要求解决。",
+      "decision": "Use a separately named reader edition under the current reflow authorization; retain the aligned edition. Retain still-binding font requirements; do not assume every paper becomes 19 pages.",
+      "bad": "继续固定每个英文词和行内公式的旧坐标，仅以区域外像素0认定可读。",
+      "good": "完整语义段落、随句的矢量公式、独立阅读质量验收。"
+    },
+    {
+      "id": "inline-adjacency",
+      "input_source_id": "p03-b042",
+      "bad_visual": "before-after-inline.png",
+      "recipe": "reader-plan.json / cox-p03-b042",
+      "decision": "Reflow the full target sentence with its native math assets; leave no artificial old-slot gaps."
+    },
+    {
+      "id": "wrapped-math-not-box-union",
+      "input_source_id": "p02-b041",
+      "facts": "psi_mn wraps across two source lines; its union bbox encloses unrelated Hm.",
+      "decision": "Join only explicitly declared semantic tokens and ordered line pieces. Never union all intersecting math bboxes.",
+      "recipe": "reader-plan.json / cox-p02-b041"
+    },
+    {
+      "id": "split-subscripts",
+      "input_source_ids": [
+        "p04-b006",
+        "p04-b007"
+      ],
+      "facts": "C^2 and n were separate extraction blocks but one mathematical quantity.",
+      "decision": "Bind the continuation by source geometry and semantic adjacency, then move the complete original quantity as one asset.",
+      "recipe": "reader-plan.json / cox-cn-definition"
+    },
+    {
+      "id": "cmex-true-ink",
+      "input_source_ids": [
+        "p03-b025",
+        "p03-b026",
+        "p03-b027"
+      ],
+      "facts": "Legacy CMEX control code and nominal text bbox do not describe the actual bracket outline.",
+      "decision": "Use embedded glyph ID and outline bounds; never guess the bracket from OCR/control text.",
+      "recipe": "reader-plan.json / cox-jones"
+    },
+    {
+      "id": "display-and-condition",
+      "input_source_id": "equation-11",
+      "decision": "Keep the mathematical object; translate only the condition word for→当; remove surrounding prose and relocate one equation number.",
+      "recipe": "reader-plan.json / display-11"
+    },
+    {
+      "id": "dark-raster-label",
+      "source": "Laser",
+      "translation": "激光器",
+      "before": "laser-before.png",
+      "after": "laser-after.png",
+      "recipe": "laser-patch.json",
+      "decision": "Reviewed glyph mask + local background recovery on dark housing; a white rectangle would erase the gradient. Raster font size remains an estimate."
+    },
+    {
+      "id": "table-and-references",
+      "decision": "Keep table I grid/data and complete reference entries. A source extractor column is not one bibliographic record.",
+      "recipes": [
+        "reader-plan.json / table-1",
+        "reader-plan.json / selected-references"
+      ]
+    },
+    {
+      "id": "punctuation-and-compression",
+      "observations": [
+        "An empty string is contained in any Python string: guard text before testing punctuation membership.",
+        "Consecutive closing marks need their preceding semantic atom.",
+        "Native font subsetting followed by garbage=4 stalled during saving on this paper."
+      ],
+      "decision": "Use nonempty checks, carry the full closing-mark run, and perform bounded optional subsetting with garbage=1 plus all-page pixel/text/TOC equality; otherwise keep the verified input."
+    }
+  ],
+  "changes": "Selected crops, translated labels/prose, and reflow are adaptations; not a publisher edition."
+}

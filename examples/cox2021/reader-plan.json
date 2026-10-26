@@ -1,0 +1,456 @@
+{
+  "version": 1,
+  "edition": "reader",
+  "mode_basis": "User requested readability repair after the strict coordinate edition; this standalone example demonstrates that authorized reflow, not a default for every paper.",
+  "title": "Cox 2021 阅读重排教学节选",
+  "assets_manifest": "assets.json",
+  "running_header": "Cox 2021 · 阅读重排教学节选",
+  "page": {
+    "width": 594,
+    "height": 792,
+    "margins": [
+      36,
+      53,
+      36,
+      40
+    ],
+    "columns": 2,
+    "gutter": 20
+  },
+  "fonts": {
+    "regular": "auto-cjk",
+    "bold": "auto-cjk-bold",
+    "latin_regular": "tiro",
+    "latin_bold": "tibo"
+  },
+  "styles": {
+    "body": {
+      "size_pt": 9.9626,
+      "bold": false,
+      "leading": 1.43,
+      "indent_em": 2,
+      "after_pt": 5
+    },
+    "caption": {
+      "size_pt": 7.9701,
+      "bold": false,
+      "leading": 1.43,
+      "indent_em": 0,
+      "after_pt": 5
+    },
+    "heading": {
+      "size_pt": 9.9626,
+      "bold": true,
+      "after_pt": 6
+    },
+    "title": {
+      "size_pt": 14,
+      "bold": true,
+      "align": "center",
+      "after_pt": 8
+    }
+  },
+  "units": [
+    {
+      "id": "example-title",
+      "action": "translate",
+      "delivery": "text",
+      "source": "Reader-edition teaching excerpts",
+      "target": "论文阅读重排 few-shot",
+      "required_assets": []
+    },
+    {
+      "id": "example-note",
+      "action": "translate",
+      "delivery": "text",
+      "source": "These are selected teaching excerpts, not a full translation or publisher edition.",
+      "target": "本例仅包含教学节选，用于核对重排、原公式字形、图注和题录；不代表全文翻译或出版方版本。",
+      "required_assets": []
+    },
+    {
+      "id": "cyl-heading",
+      "action": "translate",
+      "delivery": "text",
+      "source": "Cylindrical vector modes",
+      "target": "A. 连贯的行内公式",
+      "required_assets": []
+    },
+    {
+      "id": "cox-p03-b042",
+      "action": "translate",
+      "delivery": "text",
+      "source": "Here r = (r, φ) while ψ±ℓ= A(r) exp(±iℓφ) comprises an\nenveloping function, A(r), and an azimuthal phase, exp(±iℓφ)\nwith topological charge ±ℓand carrying ±ℓℏof OAM per pho-\nton. The parameters, a, b and α control the relative amplitudes\nand phases between the polarisation components, producing all\nstates on a higher-order Poincare Sphere [72]. From this we can\nconstructed a four dimensional mode space containing four basis\nvector modes, i.e.,",
+      "target": "有{{asset:r}}，而{{asset:psi}}由包络{{asset:envelope}}及方位相位{{asset:azimuthal}}组成，其拓扑荷为{{asset:charge}}，携带{{asset:oam}}的OAM/光子。参数{{asset:a}}、{{asset:b}}和{{asset:alpha}}控制两偏振分量的相对振幅与相位，生成高阶庞加莱球上的全部态[72]。由此可构成含四个基矢量模式的四维空间。",
+      "required_assets": [
+        "r",
+        "psi",
+        "envelope",
+        "azimuthal",
+        "charge",
+        "oam",
+        "a",
+        "b",
+        "alpha"
+      ]
+    },
+    {
+      "id": "wrap-heading",
+      "action": "translate",
+      "delivery": "text",
+      "source": "Wrapped math and split extraction blocks",
+      "target": "B. 跨行公式与拆分变量",
+      "required_assets": []
+    },
+    {
+      "id": "cox-p02-b041",
+      "action": "translate",
+      "delivery": "text",
+      "source": "where Hm(·) denotes the Hermite polynomials and ψmn(z) =\n(m + n + 1) tan−1(z/z0) is the Gouy phase shift. In this case,\nthe solution reduces to the fundamental Gaussian beam when\nm = n = 0.",
+      "target": "其中{{asset:hm}}为厄米多项式，{{asset:psi-mn}}为古依相移。当{{asset:mn-zero}}时，解退化为基模高斯光束。",
+      "required_assets": [
+        "hm",
+        "psi-mn",
+        "mn-zero"
+      ]
+    },
+    {
+      "id": "cox-cn-definition",
+      "action": "translate",
+      "delivery": "text",
+      "source": "C_n^2 is the refractive index structure parameter, a measure of the strength of refractive index fluctuations.",
+      "target": "{{asset:cn}}为折射率结构参数，用于表征折射率起伏的强度。",
+      "required_assets": [
+        "cn"
+      ]
+    },
+    {
+      "id": "cox-jones",
+      "action": "translate",
+      "delivery": "text",
+      "source": "The right and left unit-vector components follow the Jones formalism.",
+      "target": "按琼斯形式，右、左圆偏振单位矢量分别为{{asset:eR}}和{{asset:eL}}。",
+      "required_assets": [
+        "eR",
+        "eL"
+      ]
+    },
+    {
+      "id": "eq-heading",
+      "action": "translate",
+      "delivery": "text",
+      "source": "von Karman spectrum",
+      "target": "C. 独立公式与编号",
+      "required_assets": []
+    },
+    {
+      "id": "eq-lead",
+      "action": "translate",
+      "delivery": "text",
+      "source": "The von Karman spectrum is given by",
+      "target": "von Kármán谱可写为：",
+      "required_assets": []
+    },
+    {
+      "id": "cox-eq11",
+      "action": "preserve",
+      "delivery": "asset",
+      "asset": "eq11",
+      "source": "Original equation (11) mathematical glyphs",
+      "reason": "Retain original mathematical glyphs, signs and exponents.",
+      "required_assets": [
+        "eq11"
+      ]
+    },
+    {
+      "id": "cox-eq11-for",
+      "action": "translate",
+      "delivery": "asset",
+      "asset": "eq11",
+      "source": "for",
+      "target": "当",
+      "required_assets": []
+    },
+    {
+      "id": "fig-heading",
+      "action": "translate",
+      "delivery": "text",
+      "source": "Figure labels and captions",
+      "target": "D. 图内标签与图注",
+      "required_assets": []
+    },
+    {
+      "id": "cox-fig4-data",
+      "action": "preserve",
+      "delivery": "asset",
+      "asset": "fig4",
+      "source": "Original Figure 4 scientific geometry, phase and intensity panels",
+      "reason": "No regeneration of curves, rays, images or data.",
+      "required_assets": [
+        "fig4"
+      ]
+    },
+    {
+      "id": "cox-laser",
+      "action": "translate",
+      "delivery": "asset",
+      "asset": "fig4",
+      "source": "Laser",
+      "target": "激光器",
+      "required_assets": []
+    },
+    {
+      "id": "cox-detector",
+      "action": "translate",
+      "delivery": "asset",
+      "asset": "fig4",
+      "source": "Detector",
+      "target": "探测器",
+      "required_assets": []
+    },
+    {
+      "id": "cox-fig4-caption",
+      "action": "translate",
+      "delivery": "text",
+      "source": "Fig. 4.\n(a) Typical set-up for creating a mode and then aberrating it with\nturbulence (FL: Fourier Lens; SLM: Spatial Light Modulator). Holograms for\n(b) strong (top, SLM) and (c) weak (bottom, DMD) turbulence with and without\ngratings. (d) Phase and intensity of ℓ= 3 beams through the setup for strong\n(top panel) and weak (bottom panel) turbulence strengths.",
+      "target": "图4. (a)产生模式并加载湍流像差的典型装置（FL：傅里叶透镜；SLM：空间光调制器）。(b)强湍流（上，SLM）与(c)弱湍流（下，DMD）的带光栅和不带光栅全息图。(d){{asset:ell-three}}光束通过装置后，在强湍流（上）与弱湍流（下）中的相位和强度。",
+      "required_assets": [
+        "ell-three"
+      ]
+    },
+    {
+      "id": "cox-table1-data",
+      "action": "preserve",
+      "delivery": "asset",
+      "asset": "table1",
+      "source": "c=0; M1=1.759; M2=-0.7626; N1=-1.289; N2=0.3166; sigma^2=2150",
+      "reason": "Preserve source table rows, columns, symbols, numeric precision and rules.",
+      "required_assets": [
+        "table1"
+      ]
+    },
+    {
+      "id": "cox-table1-caption",
+      "action": "translate",
+      "delivery": "text",
+      "source": "Table I. Weights for the ARMA(2,2) model. As expected, the constant term is zero.",
+      "target": "表I　ARMA(2,2)模型的权重。如预期，常数项为零。",
+      "required_assets": []
+    },
+    {
+      "id": "refs-heading",
+      "action": "translate",
+      "delivery": "text",
+      "source": "Selected original bibliographic records",
+      "target": "E. 参考文献节选",
+      "required_assets": []
+    },
+    {
+      "id": "cox-ref-209",
+      "action": "preserve",
+      "delivery": "asset",
+      "asset": "ref-209",
+      "source": "Original bibliographic record [209]",
+      "reason": "Keep searchable bibliographic record in its original language and typography.",
+      "required_assets": [
+        "ref-209"
+      ]
+    },
+    {
+      "id": "cox-ref-210",
+      "action": "preserve",
+      "delivery": "asset",
+      "asset": "ref-210",
+      "source": "Original bibliographic record [210]",
+      "reason": "Keep searchable bibliographic record in its original language and typography.",
+      "required_assets": [
+        "ref-210"
+      ]
+    },
+    {
+      "id": "cox-ref-211",
+      "action": "preserve",
+      "delivery": "asset",
+      "asset": "ref-211",
+      "source": "Original bibliographic record [211]",
+      "reason": "Keep searchable bibliographic record in its original language and typography.",
+      "required_assets": [
+        "ref-211"
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "example-title",
+      "kind": "heading",
+      "unit_ids": [
+        "example-title"
+      ],
+      "text": "论文阅读重排 few-shot",
+      "style": "title",
+      "full_width": true
+    },
+    {
+      "id": "example-note",
+      "kind": "paragraph",
+      "unit_ids": [
+        "example-note"
+      ],
+      "text": "本例仅包含教学节选，用于核对重排、原公式字形、图注和题录；不代表全文翻译或出版方版本。",
+      "style": "caption",
+      "full_width": true
+    },
+    {
+      "id": "cyl-heading",
+      "kind": "heading",
+      "unit_ids": [
+        "cyl-heading"
+      ],
+      "text": "A. 连贯的行内公式",
+      "style": "heading",
+      "level": 1
+    },
+    {
+      "id": "cox-p03-b042",
+      "kind": "paragraph",
+      "unit_ids": [
+        "cox-p03-b042"
+      ],
+      "text": "有{{asset:r}}，而{{asset:psi}}由包络{{asset:envelope}}及方位相位{{asset:azimuthal}}组成，其拓扑荷为{{asset:charge}}，携带{{asset:oam}}的OAM/光子。参数{{asset:a}}、{{asset:b}}和{{asset:alpha}}控制两偏振分量的相对振幅与相位，生成高阶庞加莱球上的全部态[72]。由此可构成含四个基矢量模式的四维空间。",
+      "style": "body"
+    },
+    {
+      "id": "wrap-heading",
+      "kind": "heading",
+      "unit_ids": [
+        "wrap-heading"
+      ],
+      "text": "B. 跨行公式与拆分变量",
+      "style": "heading",
+      "level": 1
+    },
+    {
+      "id": "cox-p02-b041",
+      "kind": "paragraph",
+      "unit_ids": [
+        "cox-p02-b041"
+      ],
+      "text": "其中{{asset:hm}}为厄米多项式，{{asset:psi-mn}}为古依相移。当{{asset:mn-zero}}时，解退化为基模高斯光束。",
+      "style": "body"
+    },
+    {
+      "id": "cox-cn-definition",
+      "kind": "paragraph",
+      "unit_ids": [
+        "cox-cn-definition"
+      ],
+      "text": "{{asset:cn}}为折射率结构参数，用于表征折射率起伏的强度。",
+      "style": "body"
+    },
+    {
+      "id": "cox-jones",
+      "kind": "paragraph",
+      "unit_ids": [
+        "cox-jones"
+      ],
+      "text": "按琼斯形式，右、左圆偏振单位矢量分别为{{asset:eR}}和{{asset:eL}}。",
+      "style": "body"
+    },
+    {
+      "id": "eq-heading",
+      "kind": "heading",
+      "unit_ids": [
+        "eq-heading"
+      ],
+      "text": "C. 独立公式与编号",
+      "style": "heading",
+      "level": 1
+    },
+    {
+      "id": "eq-lead",
+      "kind": "paragraph",
+      "unit_ids": [
+        "eq-lead"
+      ],
+      "text": "von Kármán谱可写为：",
+      "style": "body"
+    },
+    {
+      "id": "display-11",
+      "kind": "equation",
+      "unit_ids": [
+        "cox-eq11",
+        "cox-eq11-for"
+      ],
+      "asset": "eq11",
+      "number": "11"
+    },
+    {
+      "id": "fig-heading",
+      "kind": "heading",
+      "unit_ids": [
+        "fig-heading"
+      ],
+      "text": "D. 图内标签与图注",
+      "style": "heading",
+      "level": 1
+    },
+    {
+      "id": "figure-4",
+      "kind": "figure",
+      "unit_ids": [
+        "cox-fig4-data",
+        "cox-laser",
+        "cox-detector",
+        "cox-fig4-caption"
+      ],
+      "asset": "fig4",
+      "caption": "图4. (a)产生模式并加载湍流像差的典型装置（FL：傅里叶透镜；SLM：空间光调制器）。(b)强湍流（上，SLM）与(c)弱湍流（下，DMD）的带光栅和不带光栅全息图。(d){{asset:ell-three}}光束通过装置后，在强湍流（上）与弱湍流（下）中的相位和强度。",
+      "caption_style": "caption"
+    },
+    {
+      "id": "table-1",
+      "kind": "table",
+      "unit_ids": [
+        "cox-table1-data",
+        "cox-table1-caption"
+      ],
+      "asset": "table1",
+      "caption": "表I　ARMA(2,2)模型的权重。如预期，常数项为零。",
+      "caption_style": "caption"
+    },
+    {
+      "id": "refs-heading",
+      "kind": "heading",
+      "unit_ids": [
+        "refs-heading"
+      ],
+      "text": "E. 参考文献节选",
+      "style": "heading",
+      "level": 1
+    },
+    {
+      "id": "selected-references",
+      "kind": "references",
+      "unit_ids": [
+        "cox-ref-209",
+        "cox-ref-210",
+        "cox-ref-211"
+      ],
+      "entries": [
+        {
+          "id": "209",
+          "asset": "ref-209"
+        },
+        {
+          "id": "210",
+          "asset": "ref-210"
+        },
+        {
+          "id": "211",
+          "asset": "ref-211"
+        }
+      ],
+      "balance_last_page": true
+    }
+  ]
+}

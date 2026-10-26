@@ -1,0 +1,189 @@
+{
+  "name": "paper-translate-faithful",
+  "display_name": "论文保真翻译与排版skill",
+  "version": "2.1.1",
+  "package_sha256": "e59e622a299928cf3996d9eae7ba033bbfd1fab5b122f5c5d868b24a1debd19a",
+  "package_bytes": 4526622,
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "becf4bb897a894d350674deb1e78ef1078aa85de7f66689478421349791db412"
+    },
+    {
+      "path": "config/typography.json",
+      "sha256": "39b4a9474fbe8c740cc34a6cf327ce4dac4ff45435de9393c005741f7d88882b"
+    },
+    {
+      "path": "examples/cox2021/assets-spec.json",
+      "sha256": "e107ca979dfe19cbaafdb929c491edcd40c99c7f1301418c922e1a743116e747"
+    },
+    {
+      "path": "examples/cox2021/assets.json",
+      "sha256": "89ca7def11e624ed4ac6fe05c63f51c862923541ba67e883182c1d44f81cb19a"
+    },
+    {
+      "path": "examples/cox2021/attribution.md",
+      "sha256": "ff44bf9ffe4ab399255898f277bd46f9c9791f45ed67fab621f5c22ff1fe5988"
+    },
+    {
+      "path": "examples/cox2021/before-after-inline.png",
+      "sha256": "e0b97c02537e4ad886244454c43837d0985e479f03f45c29aaa9007222e90fc7"
+    },
+    {
+      "path": "examples/cox2021/fewshots.json",
+      "sha256": "ca4e0f347d16ab3c07b6af1bc1d08b970d3b2c33fcd6a4c57b113ed1a0caff38"
+    },
+    {
+      "path": "examples/cox2021/laser-after.png",
+      "sha256": "52aedd9b132a88d81d8c9b90e2ede26c52066ce4b53e2daf3be8b13d5f98197f"
+    },
+    {
+      "path": "examples/cox2021/laser-before.png",
+      "sha256": "55cb174e4644bb289e1f2d730de42e08d4a418b972fdde5bb7a98cc6c5896dbd"
+    },
+    {
+      "path": "examples/cox2021/laser-mask.png",
+      "sha256": "408e42c5e3a515957fa281e9e1403262c85140ff527a6a6244171acd476cdb3b"
+    },
+    {
+      "path": "examples/cox2021/laser-patch.json",
+      "sha256": "7668d85e9c0f4689f3f3e148b35e9b03ad2931ac9e1a6af3cb10321f554c5967"
+    },
+    {
+      "path": "examples/cox2021/performance-sample.json",
+      "sha256": "f14f2201b4c719214781a408744ecb96cd836b1e778dd03041e2535b1540f853"
+    },
+    {
+      "path": "examples/cox2021/reader-plan.json",
+      "sha256": "b726c8c87653fa92698886b66771cbdbecad9db3c638ce2cc46acf7ce8c0e93f"
+    },
+    {
+      "path": "examples/cox2021/source-excerpts.pdf",
+      "sha256": "1c6023b70ede183d4aa2331b6e7f75d1b913f632e9a21fab194b335c90b5581b"
+    },
+    {
+      "path": "examples/cox2021/teaching-preview.png",
+      "sha256": "edafd0f1ee5c770f0f92ea2afe9b0c10b90ce488bde559398d4e3dfa096631f7"
+    },
+    {
+      "path": "references/architecture.md",
+      "sha256": "2390e893103f760a5186825f7c49b95ddb790d4456b6c596b44529cfc96be0c6"
+    },
+    {
+      "path": "references/few-shots.md",
+      "sha256": "4719d579b26e0ebf18be22bfde8cf7272defd928022ac85c456d0f12988112cd"
+    },
+    {
+      "path": "references/graphics.md",
+      "sha256": "f0c4c444e8eef55a6ff1330e99eddc139b537a952ddfcf214783223788cd8c5a"
+    },
+    {
+      "path": "references/job-format.md",
+      "sha256": "e7b8aae0a25a416eec07b5f5c98a226f6f21da5e68a3003a7149f003d69dabd0"
+    },
+    {
+      "path": "references/performance.md",
+      "sha256": "fb0b16a10e60d4dc1957451b7a80f050778360a6ae7aa3ff9bb30637304915e8"
+    },
+    {
+      "path": "references/reader-plan.md",
+      "sha256": "699dc47843a7bdb5fb69a6f1a2622c072ff98a6b98c34a7a8f46924677e88ccb"
+    },
+    {
+      "path": "references/reading-layout.md",
+      "sha256": "a0fe7ff29d18c762f6f05b8f47f1d9cb6d629b2cecc3ee4c2a215e54b52b59ec"
+    },
+    {
+      "path": "references/review.md",
+      "sha256": "c62f09e576c9d782551aa54238f63b4dd20a6675e4ea736b6eee4e5acae0cf34"
+    },
+    {
+      "path": "references/routes.md",
+      "sha256": "4b98e2dcdcd52001ff6cbeec8ae67935bda5c409dfecd4f1f8722a5f7bc6475c"
+    },
+    {
+      "path": "references/typography.md",
+      "sha256": "866c82c67853f65e13bb1b18583814e3cf0aab7a50432fea7506734857b5ef04"
+    },
+    {
+      "path": "references/validation.md",
+      "sha256": "9a81350c2759ca3295794e8ac8df0a0de9ecb9b539502c0bfda9e80e9be309cc"
+    },
+    {
+      "path": "requirements-babeldoc.txt",
+      "sha256": "3df511b8d786e619c23492b79f495b2287643a58e37d046e8e2baed0f8fe9fc3"
+    },
+    {
+      "path": "requirements-performance.txt",
+      "sha256": "73f4ace9b70434a57bc1ca8d629dab1cee8b652e4105e077929ff8efbc014b44"
+    },
+    {
+      "path": "requirements-reader.txt",
+      "sha256": "34d4808f11595f3f42165f6e80f332629d0dfd8419753b01f91d89a1394accdf"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "e2268cd6bce99e66e842a3b654c6f1a68fbf671a4e0ca64d36ddcd2e91431b89"
+    },
+    {
+      "path": "scripts/babeldoc_bridge.py",
+      "sha256": "df7b99743b2ee791b6669bb717a25c65abfe4e6d66a75e82fbe9016291675d3e"
+    },
+    {
+      "path": "scripts/ocr_region.py",
+      "sha256": "8607cf8b4351c30bfcf7ba7a7534fdfa45d0eb28bbf15a6ff87100b45684c8d3"
+    },
+    {
+      "path": "scripts/paperflow.py",
+      "sha256": "4eeaaa1079b364455eede91e740dd437089cac0d24f74536b4a9b4d9e068b2d8"
+    },
+    {
+      "path": "scripts/pdf_compact.py",
+      "sha256": "42f6276842168c04e801681569c2599c37f669b747354e8039a926acd6d54618"
+    },
+    {
+      "path": "scripts/pdf_optimize.py",
+      "sha256": "a61272f69de3b94c364ca901fc6637e2fc1bf84e466ba99f4783ad3f4fc69ea5"
+    },
+    {
+      "path": "scripts/pdfjs_benchmark.mjs",
+      "sha256": "5c5599bfab3b03abaa5170ce62b9d0fd2e3c7ac865c1ed1b7393b768183fa2b5"
+    },
+    {
+      "path": "scripts/raster_label_patch.py",
+      "sha256": "310739ee380dc56000b0fe9536a92a67036b32e1ad53b9828beea4409b158816"
+    },
+    {
+      "path": "scripts/reader_common.py",
+      "sha256": "a416c40221edec4d5b0e51bd6171e22c92be522327d8410187c2ade28ac4e8e9"
+    },
+    {
+      "path": "scripts/readerflow.py",
+      "sha256": "b7ca22b9bb3de50b26c4aa53bdfc6fd17cb83332dd96388c783b5121e9b09174"
+    },
+    {
+      "path": "scripts/reference_rows.py",
+      "sha256": "f32966bbcb75cf42e00f3c31a873059e21a305a1d1c05aee9d56e13047d13bb6"
+    },
+    {
+      "path": "scripts/test_paperflow.py",
+      "sha256": "08df6a3bde0f7ca50d0e1d468caa1b905697d5574b08d976cf07dc18b7d5ec7c"
+    },
+    {
+      "path": "scripts/test_pdf_optimize.py",
+      "sha256": "d1c9012c9f254412773b64041c144696ba56cab7505cb4c4be15ae164195ac6c"
+    },
+    {
+      "path": "scripts/test_reader_tools.py",
+      "sha256": "53b963e1cf6a0009392a42f60995cfd84e8320d8704e55c0d3c225302b6b81bb"
+    },
+    {
+      "path": "scripts/vector_assets.py",
+      "sha256": "d760a73d9970a1920f0fff130b70a2f20d163e767165823bc0d935757842061f"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "78be5998bedcced516a400e444274d1bd73306c30d8133e2adcedbbff280399b"
+    }
+  ]
+}

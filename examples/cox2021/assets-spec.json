@@ -1,0 +1,750 @@
+{
+  "version": 1,
+  "sources": {
+    "excerpts": {
+      "path": "source-excerpts.pdf",
+      "sha256": "1c6023b70ede183d4aa2331b6e7f75d1b913f632e9a21fab194b335c90b5581b",
+      "kind": "reviewed-vector-excerpts"
+    }
+  },
+  "assets": [
+    {
+      "id": "r",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p03-b042"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 1,
+          "bbox": [
+            0,
+            0,
+            40.60667037963867,
+            12.403998374938965
+          ],
+          "baseline": 10.114700317382812
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            325.1798400878906,
+            170.3852996826172,
+            365.48651123046875,
+            182.34042358398438
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "psi",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p03-b042"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 2,
+          "bbox": [
+            0,
+            0,
+            95.20970153808594,
+            13.210654258728027
+          ],
+          "baseline": 10.114700317382812
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            397.4505310058594,
+            170.3852996826172,
+            492.3602294921875,
+            183.2367401123047
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "envelope",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p03-b042"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 3,
+          "bbox": [
+            0,
+            0,
+            22.665996551513672,
+            12.403998374938965
+          ],
+          "baseline": 10.11249084472658
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            382.7138671875,
+            182.33750915527344,
+            405.0798645019531,
+            194.29263305664062
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "azimuthal",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p03-b042"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 4,
+          "bbox": [
+            0,
+            0,
+            46.9210319519043,
+            12.403998374938965
+          ],
+          "baseline": 10.11249084472658
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            505.34942626953125,
+            182.33750915527344,
+            551.970458984375,
+            194.29263305664062
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "charge",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p03-b042"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 5,
+          "bbox": [
+            0,
+            0,
+            14.526593208312988,
+            12.403998374938965
+          ],
+          "baseline": 10.111370239257809
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            394.4717102050781,
+            194.2986297607422,
+            408.69830322265625,
+            206.25375366210938
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "oam",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p03-b042"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 6,
+          "bbox": [
+            0,
+            0,
+            19.906414031982422,
+            12.403998374938965
+          ],
+          "baseline": 10.111370239257809
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            460.91424560546875,
+            194.2986297607422,
+            480.5206604003906,
+            206.25375366210938
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "a",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p03-b042"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 7,
+          "bbox": [
+            0,
+            0,
+            8.334759712219238,
+            12.403998374938965
+          ],
+          "baseline": 10.109221801757826
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            383.37445068359375,
+            206.2507781982422,
+            391.4092102050781,
+            216.21337890625
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "b",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p03-b042"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 8,
+          "bbox": [
+            0,
+            0,
+            7.348523139953613,
+            12.403998374938965
+          ],
+          "baseline": 10.109221801757826
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            393.90484619140625,
+            206.2507781982422,
+            400.953369140625,
+            216.21337890625
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "alpha",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p03-b042"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 9,
+          "bbox": [
+            0,
+            0,
+            9.451611518859863,
+            12.403998374938965
+          ],
+          "baseline": 10.109221801757826
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            418.10400390625,
+            206.2507781982422,
+            427.255615234375,
+            216.21337890625
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "hm",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p02-b041"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 10,
+          "bbox": [
+            0,
+            0,
+            29.388103485107422,
+            13.210333824157715
+          ],
+          "baseline": 10.111428222656173
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 2,
+          "bbox": [
+            329.46746826171875,
+            542.5985717773438,
+            358.5555725097656,
+            555.44970703125
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "psi-mn",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p02-b041"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 11,
+          "bbox": [
+            0,
+            0,
+            150.89820861816406,
+            13.212421417236328
+          ],
+          "baseline": 10.111550292968673
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 2,
+          "bbox": [
+            305.1368713378906,
+            542.5984497070312,
+            556.1834716796875,
+            567.4016723632812
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "mn-zero",
+      "role": "inline_math",
+      "source_units": [
+        "cox-p02-b041"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 12,
+          "bbox": [
+            0,
+            0,
+            46.57426071166992,
+            12.403983116149902
+          ],
+          "baseline": 10.116376953124927
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 2,
+          "bbox": [
+            305.1363525390625,
+            578.463623046875,
+            351.4106140136719,
+            590.418701171875
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "cn",
+      "role": "inline_math",
+      "source_units": [
+        "cox-cn-definition"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 13,
+          "bbox": [
+            0,
+            0,
+            14.313847541809082,
+            14.17331600189209
+          ],
+          "baseline": 10.113470458984352
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 4,
+          "bbox": [
+            83.46424865722656,
+            291.7865295410156,
+            97.47809600830078,
+            305.6006164550781
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "eR",
+      "role": "inline_math",
+      "source_units": [
+        "cox-jones"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 14,
+          "bbox": [
+            0,
+            0,
+            58.595584869384766,
+            17.59302520751953
+          ],
+          "baseline": 14.683549804687459
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            62.09349060058594,
+            599.2989501953125,
+            120.38907623291016,
+            616.5327758789062
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "eL",
+      "role": "inline_math",
+      "source_units": [
+        "cox-jones"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 15,
+          "bbox": [
+            0,
+            0,
+            58.02108383178711,
+            17.59302520751953
+          ],
+          "baseline": 14.681049804687405
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 3,
+          "bbox": [
+            228.24998474121094,
+            599.2989501953125,
+            285.9710693359375,
+            616.5327758789062
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "ell-three",
+      "role": "inline_math",
+      "source_units": [
+        "cox-fig4-caption"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 16,
+          "bbox": [
+            0,
+            0,
+            19.004222869873047,
+            8.359190940856934
+          ],
+          "baseline": 6.52838134765625
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 7,
+          "bbox": [
+            154.2029266357422,
+            290.97161865234375,
+            172.9071502685547,
+            298.94171142578125
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "eq11",
+      "role": "equation",
+      "source_units": [
+        "cox-eq11",
+        "cox-eq11-for"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 17,
+          "bbox": [
+            0,
+            0,
+            238.86666870117188,
+            26.200000762939453
+          ],
+          "baseline": 18.340000534057616
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 4,
+          "bbox": [
+            47.61453094482422,
+            550.0893920898437,
+            287.67778930664065,
+            578.6
+          ],
+          "changes": "for→当; equation number relocated separately; no mathematical glyph retyping"
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "fig4",
+      "role": "figure",
+      "source_units": [
+        "cox-fig4-data",
+        "cox-laser",
+        "cox-detector"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 18,
+          "bbox": [
+            0,
+            0,
+            244.0,
+            194.0
+          ],
+          "baseline": 135.79999999999998
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 7,
+          "bbox": [
+            42.0,
+            60.0,
+            286.0,
+            254.0
+          ],
+          "changes": "Laser/Detector labels translated; underlying figure retained"
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "table1",
+      "role": "table",
+      "source_units": [
+        "cox-table1-data"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 19,
+          "bbox": [
+            0,
+            0,
+            183.0,
+            26.0
+          ],
+          "baseline": 18.2
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "page": 14,
+          "bbox": [
+            76,
+            100,
+            259,
+            126
+          ]
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "ref-209",
+      "role": "reference",
+      "source_units": [
+        "cox-ref-209"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 20,
+          "bbox": [
+            0,
+            0,
+            251.0,
+            28.871746826171815
+          ],
+          "baseline": 20.21022277832027
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "kind": "reference",
+          "number": 209
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "ref-210",
+      "role": "reference",
+      "source_units": [
+        "cox-ref-210"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 21,
+          "bbox": [
+            0,
+            0,
+            251.0,
+            28.791012573242128
+          ],
+          "baseline": 20.153708801269488
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "kind": "reference",
+          "number": 210
+        }
+      ],
+      "contains_number": false
+    },
+    {
+      "id": "ref-211",
+      "role": "reference",
+      "source_units": [
+        "cox-ref-211"
+      ],
+      "evidence": "Actual source/translated crop inspected during the Cox translation; inspect the bundled crop again when testing this fixture.",
+      "pieces": [
+        {
+          "source": "excerpts",
+          "page": 22,
+          "bbox": [
+            0,
+            0,
+            251.0,
+            38.36116638183583
+          ],
+          "baseline": 26.85281646728508
+        }
+      ],
+      "provenance": [
+        {
+          "paper_sha256": "31763433b20517f9d391e20606de682f23b71be326898c6174d2fc2ec9316e24",
+          "kind": "reference",
+          "number": 211
+        }
+      ],
+      "contains_number": false
+    }
+  ]
+}
