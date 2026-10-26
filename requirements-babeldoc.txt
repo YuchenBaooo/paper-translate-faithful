@@ -1,0 +1,2 @@
+# Optional engine, AGPL-3.0; use an isolated Python 3.12 environment.
+BabelDOC>=0.6.4,<0.7
