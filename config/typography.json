@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "origin": "Default: inherit source size, weight and style; map translated Chinese to an available CJK font.",
+  "reference_scope": "Source typography and explicit current-task requirements.",
+  "policy": {
+    "size": "source",
+    "weight": "source",
+    "italic": "source",
+    "shrink_to_fit": false
+  },
+  "fonts": {
+    "regular": [
+      "C:/Windows/Fonts/msyh.ttc",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
+    ],
+    "bold": [
+      "C:/Windows/Fonts/msyhbd.ttc",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
+    ],
+    "latin_regular": [
+      "C:/Windows/Fonts/times.ttf",
+      "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+    ],
+    "latin_bold": [
+      "C:/Windows/Fonts/timesbd.ttf",
+      "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
+    ]
+  },
+  "roles": {
+    "title": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "subtitle": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "authors": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "affiliation": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "abstract_label": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "abstract": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "keywords_label": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "keywords": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "heading1": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "heading2": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "heading3": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "body": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "figure_caption": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "table_caption": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "table_header": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "table_cell": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "table_note": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "figure_label": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "footnote": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "acknowledgments": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "funding": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "author_bio": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "references_heading": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "references": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "appendix_heading": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "appendix": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "running_header": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "page_number": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    },
+    "bibliographic_metadata": {
+      "size_pt": "source",
+      "weight": "source",
+      "font": "source-weight-mapped-cjk",
+      "italic": "source"
+    }
+  }
+}
